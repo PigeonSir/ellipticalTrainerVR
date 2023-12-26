@@ -9,6 +9,7 @@ server.bind((bind_ip, bind_port))
 server.listen(5)
 print("Server is listening on %s:%d" % (bind_ip, bind_port))
 
+
 while True:
     # wait for client to connect
     client, addr = server.accept()
