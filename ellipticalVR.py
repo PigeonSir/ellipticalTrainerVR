@@ -79,7 +79,6 @@ while True:
     box1.pos = vec(pointc.pos.x + r1 / 3, pointc.pos.y, pointc.pos.z)
     v2 = vec(pointb.pos.x * 0.2 + pointc.pos.x * 0.8, pointb.pos.y * 0.2 + pointc.pos.y * 0.8, 0 + point_radius / 2)
     point_foot.pos = v2;
-
     if seta < 3.142 * 2: 
         trace.append(v2)
 
